@@ -1,6 +1,7 @@
 
 import { Professional } from "./Professional";
 import { Movie } from "./Movie";
+const fs = require('fs');
 
 export class Imdb {
     constructor(public peliculas: Movie[]) {
