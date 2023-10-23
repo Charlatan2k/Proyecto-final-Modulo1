@@ -1,7 +1,6 @@
 
 import { Professional } from "./Professional";
 import { Movie } from "./Movie";
-const fs = require('fs');
 
 export class Imdb {
     constructor(public peliculas: Movie[]) {
@@ -22,7 +21,7 @@ let imdbString = JSON.stringify(imdb);
 console.log(imdbString);
 
 // 2. Guardar dicho objeto en fichero JSON con nombre “imdbBBDD.json”.
-import * as fs from "fs";
+import * as fs from 'fs';
 fs.writeFileSync("imdbBBDD.json", imdbString);
 
 
