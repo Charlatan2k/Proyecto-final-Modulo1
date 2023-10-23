@@ -28,7 +28,10 @@ let imdbString = JSON.stringify(imdb2);
 // console.log(imdbString); // lo pasa como objeto
 
 // 2. Guardar dicho objeto en fichero JSON con nombre “imdbBBDD.json”.
-import * as fs from 'fs';
+
+
+
+import * as fs from "fs";
 fs.writeFileSync("imdbBBDD.json", imdbString);
 
 let data = fs.readFileSync("imdbBBDD.json", "utf8");

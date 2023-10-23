@@ -2,7 +2,7 @@ import { Professional } from "./Professional"
 
 export class Movie {
     public actors: Professional[];
-    public nacionality: string
+    public nacionality: string;
     public director: Professional;
     public writer: Professional;
     public language: string;
