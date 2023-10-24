@@ -1,7 +1,7 @@
 import { Professional } from "./Professional";
 import { Movie } from "./Movie";
 import * as fs from "fs";
-
+import * as readlineSync from 'readline-sync';
 
 export class Imdb {
     constructor(public peliculas: Movie[]) {
