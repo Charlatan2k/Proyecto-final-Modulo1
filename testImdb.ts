@@ -11,5 +11,3 @@ let pelis: Movie[] = [
   
 let imdb = new Imdb(pelis);
 console.log(imdb.peliculas);
-  
-  
