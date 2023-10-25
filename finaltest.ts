@@ -6,6 +6,7 @@ import * as readlineSync from 'readline-sync';
 import { Imdb } from './imdb';
 import { Movie } from './Movie';
 import { Professional } from './Professional';
+import { log } from 'console';
 
 let profesional = new Professional("Cloony", 47, 85, 190, false, "Spain", 2, "actor");
 let pelis: Movie[] = [
@@ -27,3 +28,4 @@ let imdb4 = new Imdb(pelis);
   
   let peliculas = imdb4.peliculas;
  
+console.log(imdb4);
