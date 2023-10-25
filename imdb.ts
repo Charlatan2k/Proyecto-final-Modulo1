@@ -15,9 +15,12 @@ export class Imdb {
           }
 
 
-    public obtenerInstanciaImdb(nombreFichero: string){
-      return 
-    }
+          public obtenerInstanciaIMDB (nombreFichero : string):Imdb{
+            let objetoBufer = fs.readFileSync(nombreFichero, "utf8");
+            let Instancia: Imdb = JSON.parse(objetoBufer);
+            let imdb5 = new Imdb(Instancia.peliculas); 
+            return imdb5
+            }
     }
   
 let pelis: Movie[] = [
