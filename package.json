@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "proyecto-final-modulo1",
   "version": "1.0.0",
   "description": "Proyecto final del Modulo1 Codenotch Octavio/Manu",
@@ -15,5 +16,9 @@
   "devDependencies": {
     "@types/node": "^20.8.7",
     "typescript": "^5.2.2"
+=======
+  "devDependencies": {
+    "@types/node": "^20.8.8"
+>>>>>>> ramaManu
   }
 }
