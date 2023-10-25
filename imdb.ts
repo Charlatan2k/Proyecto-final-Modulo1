@@ -13,6 +13,11 @@ export class Imdb {
         let imdbString3 = JSON.stringify(this);      
         fs.writeFileSync(nombreFichero, imdbString3);
           }
+
+
+    public obtenerInstanciaImdb(nombreFichero: string){
+      
+    }
     }
   
 let pelis: Movie[] = [
